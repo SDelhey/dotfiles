@@ -1,9 +1,2 @@
-require('settings')
-require('mappings')
-require('telescope-config')
-require('cmp-config')
-require('lsp')
-require('lsp-installer')
-require('tree-sitter')
-require('colorscheme.nightfox')
-require('packer-config')
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")
